@@ -11,7 +11,7 @@ const getMovieInfo = async (movie)=>{
 try
 {
     const myapiKey="3ade1d26";
-    const url=`http://www.omdbapi.com/?apikey=${myapiKey}&t=${movie}`;
+    const url=`https://www.omdbapi.com/?apikey=${myapiKey}&t=${movie}`;
 
     // now convert raw to json file
 
