@@ -83,7 +83,7 @@ const handleform=(e)=>{
     e.preventDefault();
     const moviename= inputBox.value.trim();
      if(moviename !== '')
-     {  showmesssage("Fetch Movie Info...")
+     {  showmesssage("Fetching Movie Info...")
         getMovieInfo(moviename);
      }
      else
